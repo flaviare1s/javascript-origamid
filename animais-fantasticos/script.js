@@ -40,7 +40,7 @@ function initAccordion() {
 }
 initAccordion()
 
-function initScrollSuave {
+function initScrollSuave() {
     const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]')
 
     function scrollToSection(event) {
@@ -51,7 +51,7 @@ function initScrollSuave {
         behavior: 'smooth',
         block: 'start',
     })
-    }
+}
 
     // Forma altrnativa de fazer o scroll suave:
     // const topo = section.offsetTop
