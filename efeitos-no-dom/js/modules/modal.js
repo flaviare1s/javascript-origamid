@@ -19,7 +19,6 @@ export function initModal() {
         botaoFechar.addEventListener('click', toggleModal)
         containerModal.addEventListener('click', cliqueForaModal)
     }
-    
 }
 
 
