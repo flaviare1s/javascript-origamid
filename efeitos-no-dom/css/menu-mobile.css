@@ -4,6 +4,8 @@
 
 @media (max-width: 700px) {
     .js [data-menu="button"] {
+        position: relative;
+        z-index: 300;
         display: flex;
         align-items: center;
         background-color: #222;
@@ -26,5 +28,21 @@
         background-color: white;
         box-shadow: 0 4px white, 0 -4px white;
         margin-right: 4px;
+    }
+
+    .js [data-menu="list"] {
+        display: block;
+        position: absolute;
+        top: 0;
+        background-color: #FB5;
+        width: 160px;
+        z-index: 200;
+        padding: 60px 0 20px 0;
+        box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .js .dropdown-menu {
+        position: static;
+        border: none;
     }
 }
