@@ -6,6 +6,7 @@ import { initModal } from "./modules/modal";
 import { initTooltip } from "./modules/tooltip";
 import { initDropdown } from "./modules/dropdown-menu";
 import { initMenuMobile } from "./modules/menu-mobile";
+import { initAnimaNumeros } from "./modules/anima-numeros";
 
 initScrollSuave()
 initAnimacaoScroll()
@@ -15,5 +16,6 @@ initModal()
 initTooltip()
 initDropdown()
 initMenuMobile()
+initAnimaNumeros()
 
 
