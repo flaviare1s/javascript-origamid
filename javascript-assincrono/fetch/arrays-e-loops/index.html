@@ -7,6 +7,9 @@
     <title>Fetch</title>
 </head>
 <body>
+    <header>
+        <h1>Exercícios sobre FETCH</h1>
+    </header>
     <form id="buscaCep">
         <label for="cep">CEP</label>
         <input type="text" name="cep" id="cep" placeholder="Digite seu CEP" required>
@@ -14,9 +17,18 @@
     </form>
     <div class="resultadoCep"></div>
 
+    <hr>
+
     <div>
         <h2>Preço Bitcoin:</h2>
         <p class="resultadoBtc"></p>
+    </div>
+
+    <hr>
+
+    <div class="piada">
+        <button id="piadaBtn">Próxima Piada</button>
+        <div id="piada"></div>
     </div>
     <script src="script.js"></script>
 </body>
